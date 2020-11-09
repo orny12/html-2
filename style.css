@@ -1,0 +1,71 @@
+ body{font-family: 'Poppins', sans-serif;}
+ .highlight{
+     color: orange;
+ }
+ p{
+     color: gray;
+ }
+ section{height: 500px;}
+ .width{
+     width: 50%;
+     float: left;
+     margin-left: 5%;
+     padding-left: 3%;
+ }
+ .width img{
+     width: 50%;
+     float: right;
+ }
+ .top-banner{
+     background-image: url(top-banner.png );
+     background-repeat: no-repeat;
+ }
+ .topbanner2{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+ }
+ .topbanner3{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+ }
+ .width1{
+    width: 50%;
+    float: right;
+    margin-right: 5%;
+    padding-right: 3%;
+ }
+ .width1 img{
+    width: 50%;
+    float: left;
+    height: 60%;
+ }
+ .link-button{
+     text-decoration: none;
+     background-image: linear-gradient(180deg, lightSalmon tomato)
+ }
+ #name{
+     border-left: 6px solid;
+     border-image: linear-gradient(180deg, lightSalmon tomato);
+     border-image-slice: 1%;
+ }
+ #roll{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, blue cyan);
+    border-image-slice: 1%;
+}
+.box{
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 10px;
+    height: 50%;
+    width: 50%;
+    background-color: papayawhip;
+    margin: 50px;
+    padding-left: 20px;
+    height: 60%;
+}
+footer p{
+    text-align: center;
+}
